@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>相亲平台</title>
+</head>
+<body>
+    <h4>青春不常在，抓紧谈恋爱</h4>
+    <form action="baidu.com" method="get">
+    <table width="600">
+<!--        第一行-->
+        <tr>
+            <td>性别</td>
+            <td>
+                <input type="radio" name="sex" id="man" value="1"><label for="man"><img src="image3/man.jpg">男</label>
+                <input type="radio" name="sex" id="women" value="0" checked><label for="women"><img src="image3/women.jpg">女</label>
+            </td>
+        </tr>
+<!--        第2行-->
+        <tr>
+            <td>生日:</td>
+            <td>
+                <select name="year" id="birthdayyear">
+                    <option value="y">--请选择年份--</option>
+                    <option value="2001">2001</option>
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                </select>
+                <select name="month" id="birthdaymonth">
+                    <option value="m">--请选择月份--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+                <select name="day" id="birthdayday">
+                    <option value="d">--请选择日--</option>
+                    <option value="01">01</option>
+                    <option value="02">02</option>
+                    <option value="03">03</option>
+                </select>
+            </td>
+        </tr>
+<!--        第3行-->
+        <tr>
+            <td>所在地区:</td>
+            <td>
+                <input type="text" name="base" id="base" value="北京思密达">
+            </td>
+        </tr>
+<!--        第4行-->
+        <tr>
+            <td>婚姻状况:</td>
+            <td>
+                <input type="radio" name="marry" id="marry1" value="0" checked>未婚
+                <input type="radio" name="marry" id="marry2" value="1">已婚
+                <input type="radio" name="marry" id="marry3" value="2">离婚
+            </td>
+        </tr>
+<!--        第5行-->
+        <tr>
+            <td>学历:</td>
+            <td>
+                <input type="text" name="eduction" id="eduction" value="博士后">
+            </td>
+        </tr>
+<!--        第6行-->
+        <tr>
+            <td>喜欢的类型:</td>
+            <td>
+                <input type="checkbox" name="type[]" id="type1">妩媚的
+                <input type="checkbox" name="type[]" id="type2">可爱的
+                <input type="checkbox" name="type[]" id="type3">小鲜肉
+                <input type="checkbox" name="type[]" id="type4">老腊肉
+                <input type="checkbox" name="type[]" id="type5" checked>都喜欢
+            </td>
+        </tr>
+<!--        第7行-->
+        <tr>
+            <td>个人介绍</td>
+            <td>
+                <textarea name="intro" id="intro" cols="30" rows="2">个人简介</textarea>
+            </td>
+        </tr>
+<!--        第8行-->
+        <tr>
+            <td></td>
+            <td><input type="image" src="image3/sub-btn.jpg" alt="免费注册" height="30" width="150"></td>
+        </tr>
+<!--        第9行-->
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="Iagreee" id="agree" checked>  我同意注册条款和会员加入标准
+            </td>
+        </tr>
+<!--        第10行-->
+        <tr>
+            <td></td>
+            <td>
+                <a href="#"> 我是会员，立即登录</a>
+            </td>
+        </tr>
+<!--        第11行-->
+        <tr>
+            <td></td>
+            <td>
+                <h5>我承诺</h5>
+                <ul>
+                    <li>年满18岁、单身</li>
+                    <li>抱着严肃的态度</li>
+                    <li>真诚寻找另一半</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

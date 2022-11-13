@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆系统</title>
+</head>
+<body>
+  <h3 align="center">请登录！</h3>
+  <form action="login.php" method="post">
+    <table>
+
+      <tr>
+        <td>您的昵称:</td>
+        <td>
+          <input type="text" name="user_name" placeholder="最少一个汉字，最多10个汉字">
+        </td>
+      </tr>
+
+      <tr>
+        <td>您的密码:</td>
+        <td>
+          <input type="password" name="user_password" placeholder="至少包含数字、字母，特殊字符中的2种">
+        </td>
+      </tr>
+
+      <tr>
+        <td align="center" colspan="2"><input type="checkbox" value="7" name="ok_boy"><i>七天内自动登录</i></td>
+      </tr>
+
+      <tr>
+        <td align="center" colspan="2"><input type="submit" value="登录" name="bnt"></td>
+      </tr>
+
+    </table>
+  </form>
+
+
+
+</body>
+</html>
